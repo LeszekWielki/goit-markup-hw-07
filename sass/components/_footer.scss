@@ -88,8 +88,8 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: $primary-color;
-    position: relative;
-    top: 12px;
+    position: -webkit-sticky;
+    margin-top: 12px;
   }
 
   &__list {
@@ -109,9 +109,9 @@
     border-radius: 4px;
     font-size: medium;
     position: relative;
-    top: -1px;
     outline: none;
     color: var(--inative);
+    margin-top: 12px;
   }
   &__button {
     height: 50px;

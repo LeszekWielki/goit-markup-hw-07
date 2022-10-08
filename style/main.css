@@ -417,8 +417,8 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #fff;
-  position: relative;
-  top: 12px;
+  position: -webkit-sticky;
+  margin-top: 12px;
 }
 .newsletter__list {
   display: inline-block;
@@ -437,9 +437,9 @@
   border-radius: 4px;
   font-size: medium;
   position: relative;
-  top: -1px;
   outline: none;
   color: var(--inative);
+  margin-top: 12px;
 }
 .newsletter__button {
   height: 50px;
