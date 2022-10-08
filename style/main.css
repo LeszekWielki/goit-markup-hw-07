@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
 }
-.navigation__item-main::after {
+.navigation__item--main::after {
   content: "";
   width: 54px;
   height: 4px;
@@ -51,7 +51,7 @@
   top: 77px;
   left: 231px;
 }
-.navigation__item-portfolio::after {
+.navigation__item--portfolio::after {
   content: "";
   width: 55px;
   height: 4px;
